@@ -21,5 +21,8 @@
     "comma-dangle": ["error", "always-multiline"],
     "semi": [ "error", "always" ],
     "no-unused-vars": [1, {"vars": "local", "args": "none"}]
-  }
+  },
+  "plugins": [
+    "react/recommended"
+  ]
 }
