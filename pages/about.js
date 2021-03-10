@@ -2,9 +2,8 @@
 import Head from 'next/head'
 import styles from '../styles/Working.module.css'
 import Link from 'next/link'
-import Button from 'react-bootstrap/Button'
-import Footer from '../components/footer.js'
 import Header from '../components/header.js'
+import Container from 'react-bootstrap/Container'
 
 
 export default function Home() {
@@ -17,9 +16,13 @@ export default function Home() {
 
       <Header/>
 
+      <Container>
+      
+
+      </Container>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Sorry, this story page is still under development.
+          Sorry, this blog page is still under development.
         </h1>
 
         <div className={styles.grid}>
@@ -38,6 +41,7 @@ export default function Home() {
           <a className={styles.link_back}>Go back and try some other routes ? </a>
         </Link>
       </main>
+      
       
     </div>
   )

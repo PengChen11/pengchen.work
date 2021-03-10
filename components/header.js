@@ -10,10 +10,11 @@ export default function (){
 
   return (
     <Navbar fixed="top" variant='dark' expand = 'sm' className={`${styles.navbar} pt-3 pb-3`}>
+      
       <Link href="/">
         <Navbar.Brand className = {styles.navbar_img}>
           <Image
-            src='/img/navbar.jpeg'
+            src='/assets/img/navbar.jpeg'
             alt = 'Peng Chen'
             thumbnail
           />
