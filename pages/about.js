@@ -1,18 +1,25 @@
+
 import Head from 'next/head'
 import styles from '../styles/Working.module.css'
+import Link from 'next/link'
+import Button from 'react-bootstrap/Button'
+import Footer from '../components/footer.js'
+import Header from '../components/header.js'
 
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container}`}>
       <Head>
         <title>Things about Peng</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header/>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Sorry, this site is still under development.
+          Sorry, this story page is still under development.
         </h1>
 
         <div className={styles.grid}>
@@ -27,8 +34,10 @@ export default function Home() {
           </a>
 
         </div>
+        <Link href='/'>
+          <a className={styles.link_back}>Go back and try some other routes ? </a>
+        </Link>
       </main>
-
       
     </div>
   )
