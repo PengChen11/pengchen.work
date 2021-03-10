@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/home.module.css'
 import Link from 'next/link'
 import ReactTypingEffect from 'react-typing-effect';
 import Header from '../components/header.js'
@@ -13,7 +13,7 @@ export default function Home() {
         <title>Hi, I am Peng</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.background}>
+      <main>
         <div className={styles.container}>
           <h1 className={styles.text_h1}>
             <section>
@@ -58,6 +58,11 @@ export default function Home() {
           </h2>
           <div className={styles.click_indication}>Click anything</div>
         </div>
+        <video className={styles.video} autoPlay loop >
+          <source src='/assets/code_background.mp4' type='video/mp4' />
+        </video>
+
+        <div className={styles.background}></div>
         
       </main>
     </>
