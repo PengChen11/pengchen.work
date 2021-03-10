@@ -1,0 +1,26 @@
+.navbar {
+
+  /* max-height: 15vh; */
+  background-color: black;
+}
+
+
+.navbar_img {
+  max-width: 13vh;
+  min-width: 100px;
+  /* max-width: 10vh; */
+  margin-left: 10%;
+}
+
+.navbar_btn {
+  /* font-size: 5rem; */
+  font-family: "Cabin Sketch",cursive;
+  font-weight: 500;
+  min-width: 9vw;
+  font-size: 2vw;
+}
+
+.nav_links_all {
+  margin-right: 10%;
+  /* margin-bottom: 2%; */
+}

@@ -73,15 +73,15 @@
 
 
 .background{
-  background-image: url(../public/img/background.png);
-  background-color: #000000;
+  background-image: url(../public/img/background_wide.jpeg);
   background-repeat: no-repeat;
   background-size:contain;
   background-position: right;
+  /* background-color: black; */
   
   height: 100vh;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container {
@@ -96,7 +96,7 @@
 }
 
 
-.tap_indication {
+.click_indication {
   text-align: center;
   width: 50%;
   /* font-family:"Medium"; */

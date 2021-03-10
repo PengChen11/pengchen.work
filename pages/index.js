@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import ReactTypingEffect from 'react-typing-effect';
+import Header from '../components/header.js'
 
 export default function Home() {
 
@@ -55,7 +56,7 @@ export default function Home() {
             </section>
 
           </h2>
-          <div className={styles.tap_indication}>Click anything</div>
+          <div className={styles.click_indication}>Click anything</div>
         </div>
         
       </main>

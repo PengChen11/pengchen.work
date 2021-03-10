@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Working.module.css'
-
+import Link from 'next/link'
+import Header from '../components/header.js'
 
 
 export default function Home() {
@@ -10,10 +11,10 @@ export default function Home() {
         <title>Contact Peng</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Sorry, this site is still under development.
+          Sorry, this contact page is still under development.
         </h1>
 
         <div className={styles.grid}>
@@ -28,6 +29,9 @@ export default function Home() {
           </a>
 
         </div>
+        <Link href='/'>
+          <a className={styles.link_back}>Go back and try some other routes ? </a>
+        </Link>
       </main>
 
       
