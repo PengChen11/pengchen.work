@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/home.module.css'
 import Link from 'next/link'
 import ReactTypingEffect from 'react-typing-effect';
-import Header from '../components/header.js'
 
 export default function Home() {
 
@@ -38,22 +37,22 @@ export default function Home() {
               </Link>
             </section>
           </h1>
+          
           <h2 className={styles.text_h2}>
-            <section>
-              <Link href="/blog">
-                <a>
-                  <div className={`${styles.text_color_white} ${styles.on_hover} ${styles.fourth_line}`}>
-                    <span>
-                      <ReactTypingEffect 
-                        text={["a web developer.", "an Army Veteran.", 'a husband and father.']}
-                        typingDelay = {0}
-                        eraseDelay = {1500}
-                      />
-                    </span>
-                  </div>
-                </a>
-              </Link>
-            </section>
+            <Link href="/blog">
+              <a>
+                <div className={`${styles.text_color_white} ${styles.on_hover} ${styles.fourth_line}`}>
+                  <span>
+                    <ReactTypingEffect 
+                      text={["a web developer.", "an Army Veteran.", 'a husband and father.']}
+                      typingDelay = {0}
+                      eraseDelay = {1500}
+                    />
+                  </span>
+                </div>
+              </a>
+            </Link>
+
 
           </h2>
           <div className={styles.click_indication}>Click anything</div>

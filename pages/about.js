@@ -23,8 +23,8 @@ export default function Home() {
 
           <div className={airplan.airplane}>
             <img src="/assets/img/airplane.png" />
-            <div className={airplan.flame}></div>
-            <div className={`${airplan.flame} ${airplan.flame2}`}></div>
+            <div className={airplan.flame_down}></div>
+            <div className={`${airplan.flame_up} ${airplan.flame_down}`}></div>
           </div>
           <div className={airplan.mountains}></div>
         </div>
