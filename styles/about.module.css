@@ -32,3 +32,11 @@
   display: block;
   margin-bottom: 2vw;
 }
+
+@media only screen and (max-width: 767px) {
+  .bio{
+    font-size: 3vh;
+    letter-spacing: 2px;
+    margin-bottom: 15vh;
+  }
+}

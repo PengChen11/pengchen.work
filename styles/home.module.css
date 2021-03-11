@@ -128,6 +128,9 @@
   .text_h2 {
     font-size: 12vw;
   }
+  .text_h2 span{
+    color: red;
+  }
   .background{
     background-image: url(/assets/img/background_narrow.jpeg);
     background-position: bottom;
@@ -137,6 +140,8 @@
   }
 
   .click_indication {
-    margin-bottom: 30vh;
+    position: relative;
+    top: 5vh;
+    color: red;
   }
 }

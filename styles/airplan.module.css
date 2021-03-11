@@ -1,19 +1,22 @@
 .sky{
-  margin-top: 18vh;
+  margin-top: 11vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3vh;
   width: 60vw;
-  height: 60vh;
+  height: 30vw;
   position: relative;
   background-color: #00ccff;
   overflow-x: hidden;
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+  /* padding: 1rem; */
+  border: 0.5rem solid #dee2e6;
 }
 .clouds{
   position: absolute;
   top:5%;
-  height: 25%;
   right: 0;
+  height: 15%;
   width: 500%;
   max-width: 500%;
   background-image: url(/assets/img/clouds.png);
@@ -50,25 +53,29 @@
 
 .airplane{
   top: 25%;
-  left:40%;
+  left:50%;
   position: absolute;
   z-index: 1;
+  width: 20%;
+}
+.airplane img {
+  width: 100%;
 }
   
-.flame{
-  top: -40px;
-  left: 150px;
-  height: 10px;
-  width:60px;
-  position: relative;
+.flame_down{
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  height: 5%;
+  width:30%;
   border-radius: 50%;
   background-color: #ffffff;
   animation: flame 0.3s linear infinite;
-   z-index: -1;
+  z-index: -1;
 }
-.flame2{
-  top: -195px;
-  left: 115px;
+.flame_up{
+  top: 20%;
+  left: 55%;
 }
 @keyframes flame{
   0%{
@@ -79,5 +86,13 @@
   }
   100%{
     transform: translateX(0%);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sky{
+    margin-top: 12vh;
+    width: 80vw;
+    height: 40vw;
   }
 }
