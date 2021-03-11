@@ -1,0 +1,34 @@
+.main {
+  margin-bottom: 15vh;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bio{
+  font-size: 2vw;
+  text-align: justify;
+  text-justify: inter-character;
+  line-height: 1.5;
+  color: #CCCCCC;
+  letter-spacing: 2px;
+  margin-bottom: 15vh;
+}
+
+.bio h2 {
+  margin-bottom: 2vw;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.bio p {
+  margin-bottom: 1vw;
+  white-space: pre-wrap;
+}
+
+.bio img {
+  width: 80%;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2vw;
+}
