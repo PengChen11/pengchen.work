@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '../styles/Working.module.css'
-import Link from 'next/link'
+import styles from '../styles/contact.module.css'
 import Header from '../components/header.js'
+import Button from 'react-bootstrap/Button'
 
 
 export default function Home() {
@@ -13,25 +13,28 @@ export default function Home() {
       </Head>
       <Header/>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Sorry, this contact page is still under development.
-        </h1>
+        <h1>Contact</h1>
+        <p>
+        I'm seeking out opportunities to work for companies and / or agencies to solve real business problems.  I want to bring my skills and experiences to the future employer and work together to finish all the challenges. 
+        </p>
+        <p>
+        Feel free to reach out through any platforms below:
+        </p>
 
-        <div className={styles.grid}>
-          <a href="https://github.com/PengChen11/pengchen.work" className={styles.card}>
-            <h3>Front end GitHub repo &rarr;</h3>
-            <p>The front end is still under development with NextJS, a great React framework designed for SSR.</p>
-          </a>
 
-          <a href="https://github.com/PengChen11/Microservices-API_Gateway" className={styles.card}>
-            <h3>Backend GitHub Repo &rarr;</h3>
-            <p>The Back end is supported by a series of microservices built with Node.js </p>
-          </a>
+        <a href="mailto:hi@pengchen.work" className = 'btn btn-outline-light'>
+          hi@pengchen.work
+        </a>
 
-        </div>
-        <Link href='/'>
-          <a className={styles.link_back}>Go back and try some other routes ? </a>
-        </Link>
+        <a href='https://linkedin.com/in/pengchen11' className = 'btn btn-outline-light'>
+          <img src='/assets/img/linkedin.png' alt='linkedin icon'/>
+          Linked In
+        </a>
+
+        <a href='https://github.com/pengchen11' className = 'btn btn-outline-light'>
+          <img src='/assets/img/github.png' alt='github icon'/>
+          GitHub
+        </a>
       </main>
 
       
