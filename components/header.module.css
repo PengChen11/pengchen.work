@@ -18,7 +18,7 @@
   margin-right: 0.5rem;
 }
 
-.navbar_btn:hover {
+.navbar_link:hover {
   animation: bounce 1s infinite alternate;
   -webkit-animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
   -moz-animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
