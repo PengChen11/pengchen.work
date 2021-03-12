@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/about.module.css'
 import Header from '../components/header.js'
-import Container from 'react-bootstrap/Container'
 import airplan from '../styles/airplan.module.css'
 import Image from 'react-bootstrap/Image'
 
@@ -18,6 +17,7 @@ export default function Home() {
 
       
       <main className={styles.main}>
+
         <div className={airplan.sky}>
           <div className={airplan.clouds}></div>
 
