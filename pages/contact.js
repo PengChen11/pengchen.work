@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/contact.module.css'
 import Header from '../components/header.js'
-import Button from 'react-bootstrap/Button'
 
 
 export default function Home() {
