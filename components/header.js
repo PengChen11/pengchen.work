@@ -5,7 +5,7 @@ import styles from './header.module.css'
 import Link from 'next/link'
 import ReactTypingEffect from 'react-typing-effect';
 
-export default function (){
+export default function Header (){
 
   return (
     <Navbar fixed="top" variant='dark' expand = 'md' className={`${styles.navbar} pt-3 pb-3`}>

@@ -5,7 +5,7 @@ import airplan from '../styles/airplan.module.css'
 import Image from 'react-bootstrap/Image'
 
 
-export default function Home() {
+export default function About() {
   return (
     <div className={`${styles.container}`}>
       <Head>
@@ -31,7 +31,7 @@ export default function Home() {
 
         <article className={styles.bio}>
           {/* This part of rending will be updated to a componenet and rendered based on back end Data for sure in the future. */}
-          <h2>Hi, My name is Peng , a full stack web developer, an Army combat vateran, a husband and <span>wife</span> father. My superpowers are learning new things and fixing technical and business problems.</h2>
+          <h2>Hi, My name is Peng , a full stack web developer, an Army combat vateran, a husband and <span>wife</span> father. My superpowers are learning new things and help to solve technical and business problems.</h2>
 
           <p>     My story starts in 2009 when I immigrated to America from China to learn how America works ( U.S is a greatest country and very different from China).</p>
 
@@ -73,13 +73,13 @@ export default function Home() {
 
           <p>     Let’s take the Apache helicopter sample, for instance: </p>
 
-          <p>     If you’re looking for someone doing an engineering job, like your client wants to build a new helicopter better than the Apache, starts from the sketch, then I can’t help on that part. I don't know anything about aerodynamics nor material engineering, powertrain system design, you name it, those big sciences. You need a real engineer to lead this project, who knows most of those sciences in detail. </p>
+          <p>     If you’re looking for engineers doing a system architectural job like your client wants to build a new helicopter better than the Apaches, starts from the sketch, then I am not capable of help on that part yet. I don't know anything about aerodynamics nor material engineering, powertrain system design, you name it, those big sciences. You need a real engineer to lead this project, who knows most of those sciences in detail. </p>
 
-          <p>     However, that does NOT disqualify me from working on a helicopter. Army trusted me on that and I proved myself I can do it right. If you already have a real helicopter, or a good design, and need people to put the designer and engineer’s idea into a real flying monster, handle the maintenance of the aircraft, repair it, trouble shoot, adding new components, I am the guy who can help. </p>
+          <p>     However, that does NOT disqualify me from working on a helicopter. Army trusted me on that and I proved myself I can do it right. I do have college degrees and my biggest gain from that is, I learned how to learn effectively. If you already have a real helicopter, or a good design, and need people to put the designer and engineer’s idea into a real flying monster, handle the maintenance of the aircraft, repair it, troubleshoot, adding new components, I am the guy who can help. Given time, I can pick up the missing knowledge about aerodynamics, material engineering too. </p>
 
-          <p>     Applying that idea to the software development world, I can help to maintain applications, debugging, adding new features, test the system, with guidance from real software engineers, I can help to build up real applications. </p>
+          <p>     Applying that idea to the software development world, I can help to maintain applications, debugging, adding new features, test the system, with guidance from experienced software engineers, I can help to build up real applications. Plus, I never stop learning, I am doing everything I can to catch up with Linux administration, database, taking software engineering courses, and learning different system design patterns.   </p>
 
-          <p>     Well, if your client does not need a brand new helicopter better than Apache, then, </p>
+          <p>     So, if your client does not need a brand new helicopter better than Apaches, then, </p>
 
           <p>     I CAN HELP and I won’t let you down.</p>
 
