@@ -3,7 +3,7 @@ import styles from '../styles/contact.module.css'
 import Header from '../components/header.js'
 
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,12 +25,12 @@ export default function Home() {
           hi@pengchen.work
         </a>
 
-        <a href='https://linkedin.com/in/pengchen11' className = 'btn btn-outline-light'>
+        <a href='https://linkedin.com/in/pengchen11' className = 'btn btn-outline-light' target="_blank">
           <img src='/assets/img/linkedin.png' alt='linkedin icon'/>
           Linked In
         </a>
 
-        <a href='https://github.com/pengchen11' className = 'btn btn-outline-light'>
+        <a href='https://github.com/pengchen11' className = 'btn btn-outline-light' target="_blank">
           <img src='/assets/img/github.png' alt='github icon'/>
           GitHub
         </a>
