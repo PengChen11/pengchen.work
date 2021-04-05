@@ -58,16 +58,16 @@ export default function Work(props) {
   )
 }
 
-export async function getStaticProps(){
+// export async function getStaticProps(){
 
-  const reqConfig = {
-    method: 'get',
-    url: `http://localhost:3000/api/projects`
-  };
+//   const reqConfig = {
+//     method: 'get',
+//     url: `http://localhost:3000/api/projects`
+//   };
 
-  const {data} = await axios(reqConfig);
+//   const {data} = await axios(reqConfig);
 
-  return {
-    props:data
-  }
-}
+//   return {
+//     props:data
+//   }
+// }
